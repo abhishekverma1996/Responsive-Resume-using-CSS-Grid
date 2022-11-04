@@ -1,0 +1,259 @@
+body {
+  background-color: #846EC2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-content {
+  min-height: 1000px;
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 20% 80%;
+  grid-template-columns: 300px 700px;
+}
+
+.left-section {
+  grid-area: 1/1/3/2;
+  grid-column: span 1;
+  background-color: #C49E3F;
+}
+
+.right-section {
+  grid-area: 1/2/3/3;
+  grid-column: span 1 / span 2;
+  background-color: #ADE8F5;
+}
+
+.left-content {
+  padding: 1rem;
+}
+
+.profile img {
+  width: 60%;
+  display: block;
+  margin: auto;
+  border: 5px solid white;
+  border-radius: 30%;
+}
+
+.Name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02px;
+  padding: 0.8rem;
+  color: white;
+}
+
+.Designation {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+  color: #1098ad;
+}
+
+.Description {
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.fa-linkedin-in {
+  color: #0e76a8;
+}
+
+.fa-github {
+  color: #000;
+}
+
+.fa-facebook-f {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
+.icon1 {
+  color: #60b1f3;
+  margin: 10px 0;
+}
+
+span {
+  color: white;
+  font-size: 17px;
+  padding-left: 5px;
+}
+
+.skills-title {
+  font-size: 1.1rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem 0.5rem;
+  color: white;
+}
+
+.skill-name {
+  font-size: 0.75rem;
+  text-align: left;
+  padding-bottom: 0.5rem;
+  color: white;
+}
+
+h3 {
+  margin-top: 5px;
+}
+.progress-bar1 {
+  border: 2px solid white;
+  height: 4px;
+  border-radius: 2px;
+  width: 100%;
+}
+.progress-bar2 {
+  border: 2px solid white;
+  height: 4px;
+  border-radius: 2px;
+  width: 90%;
+}
+.progress-bar3 {
+  border: 2px solid white;
+  height: 4px;
+  border-radius: 2px;
+  width: 80%;
+}
+.progress-bar4 {
+  border: 2px solid white;
+  height: 4px;
+  border-radius: 2px;
+  width: 70%;
+}
+.progress-bar5 {
+  border: 2px solid white;
+  height: 4px;
+  border-radius: 2px;
+  width: 60%;
+}
+.progress-bar6 {
+  border: 2px solid white;
+  height: 4px;
+  border-radius: 2px;
+  width: 50%;
+}
+.progress-bar7 {
+  border: 2px solid white;
+  height: 4px;
+  border-radius: 2px;
+  width: 40%;
+}
+.progress-bar8 {
+  border: 2px solid white;
+  height: 4px;
+  border-radius: 2px;
+  width: 30%;
+}
+
+.right-section {
+  padding: 2rem 3rem;
+}
+
+.eduction {
+  margin-top: 10px;
+}
+
+.eduction-content,
+.experience-content,
+.project-content {
+  display: flex;
+  width: 100%;
+}
+
+.edu-left,
+.exp-left,
+.pro-left {
+  width: 70%;
+}
+
+.edu-right,
+.exp-right,
+.pro-right {
+  width: 30%;
+  margin-left: 50px;
+}
+
+.edu-1,
+.exp-1,
+.pro-1 {
+  margin-top: 10px;
+}
+
+.edu-2 {
+  margin-top: 130px;
+}
+
+.exp-2 {
+  margin-top: 90px;
+}
+
+.pro-2 {
+  margin-top: 90px;
+}
+
+.right-title {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.para {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: justify;
+  padding: 0.5rem;
+}
+
+.h3-tile {
+  text-transform: uppercase;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.right-para {
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.about,
+.experience,
+.eduction,
+.Projects {
+  margin-top: 15px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 674px) {
+  .right-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
